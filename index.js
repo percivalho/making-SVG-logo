@@ -1,7 +1,7 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { Rectangle, Square, Circle, Ellipse, Triangle, Star, Line}  = require('./lib/shape.js');
+const {Shape, Rectangle, Square, Circle, Ellipse, Triangle, Star, Line}  = require('./lib/shape.js');
 
 
 // Create an array of questions for user input
@@ -136,15 +136,13 @@ function generateMarkdown(data){
 </svg>`;
 }
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 function init() {
 inquirer
   .prompt(questions)
   .then(data => {
     let template = generateMarkdown(data);
-    //console.log(template);
     let filename = `./examples/${data.logo_shape}.svg`;
-    //console.log(filename);
     writeToFile(filename, template);
     })
 }

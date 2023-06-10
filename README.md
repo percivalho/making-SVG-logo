@@ -47,7 +47,8 @@ This application is built using the following technologies:
 
 - **JavaScript**: Programming language for adding interactivity and dynamic content.
 - **NodeJS**: an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a web browser.
-- **Inquirer**:  
+- **Inquirer**:  interactive command line user interface for Node.js, allowing developers to create attractive, intuitive prompts and collect user input in a more user-friendly way
+- **Jest**: open-source JavaScript testing framework developed by Facebook for auto-testing.
 
 
 ## Usage
@@ -65,17 +66,22 @@ The application is capable of generating a SVG file for logo design.  It takes u
 
 Testing done on:
 
-1. testing on default page display on show up.
-2. testing on input valid city name.
-3. testing on input invalid city name, like Abc, with 'city not found'. 
-4. testing on no internet connection, with 'Connection Error' on error message.
-5. testing on the error message display disappear when focus on input field.
-6. testing on display the current weather details including city, date, weather symbol, temperature, wind speed, and humidity.
-7. testing on display the 5 day forecast details including date, weather symbol, temperature, wind speed, and humidity.
-8. testing on clicking on saved city button and current and 5 day forecast display
-9. testing on refreshing the page and those saved cities still can be found. 
-10. testing on media break point and changing screen sizes.
-11. testing on funny city names, like Bat Cave, Llanfairpwllgwyngyll and so on.
+1. testing on logo text of more than 3 characters
+2. testing on logo text of within 3 characters
+3. testing on logo valid color word
+4. testing on logo invalid color word
+5. testing on logo valid hex code (6 digits)
+6. testing on logo invalid hex code (6 digits).
+7. testing on logo valid hex code (3 digits)
+8. testing on logo invalid hex code (3 digits)
+9. testing on generating Rectangle.
+10. testing on generating Square.
+11. testing on generating Circle.
+12. testing on generating Ellipse.
+13. testing on generating Triangle.
+14. testing on generating Star.
+15. testing on generating Line.
+16. testing on generating Logo matched to questions asked.
 
 
 
@@ -88,10 +94,18 @@ Link to GitHub repo:
 https://github.com/percivalho/making-SVG-logo.git
 
 
+
+
 ## License 
 
 ![License badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
+
+## Credits
+
+http://web.simmons.edu/~grovesd/comm244/notes/week3/css3-color-names - for the list of 140 valid CSS color names
+
+https://www.geeksforgeeks.org/how-to-validate-hexadecimal-color-code-using-regular-expression/ - for the regex validation on valid hex color code
 
 ## Credits and Copyright 
 &copy; Copyright 2023 - Present. Percival Ho
