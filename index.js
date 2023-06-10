@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { Rectangle, Square, Circle, Ellipse, Triangle, Star}  = require('./lib/shape.js');
+const { Rectangle, Square, Circle, Ellipse, Triangle, Star, Line}  = require('./lib/shape.js');
 
 
 // Create an array of questions for user input
@@ -34,7 +34,7 @@ const questions = [
       type: 'list',
       message: 'Select a shape for the logo',
       name: 'logo_shape',
-      choices: ['Rectangle', 'Square', 'Circle', 'Ellipse', 'Triangle', 'Star'],
+      choices: ['Rectangle', 'Square', 'Circle', 'Ellipse', 'Triangle', 'Star', 'Line'],
     },
     {
       type: 'input',
