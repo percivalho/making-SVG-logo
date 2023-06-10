@@ -95,7 +95,7 @@ function colorCheck(value){
 function writeToFile(fileName, data) {
     console.log('Generating Logo.....');
     fs.writeFile(fileName, data, (err) =>
-    err ? console.error(err) : console.log('Success!')
+    err ? console.error(err) : console.log(`Generated ${fileName}`)
     )
 }
 
