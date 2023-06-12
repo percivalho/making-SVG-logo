@@ -104,9 +104,11 @@ Testing done on:
 ## Resources
 
 Link to Video Demostration:
+
 https://drive.google.com/file/d/1_IE0Gr7eJAl6V1mMHt60J-HkXIDAe9-y/view?usp=sharing
 
 Link to GitHub repo:
+
 https://github.com/percivalho/making-SVG-logo.git
 
 
