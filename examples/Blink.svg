@@ -1,0 +1,10 @@
+<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+
+    <g>
+        <polygon points="150,10 180,60 240,70 195,115 200,175 150,150 100,175 105,115 60,70 120,60" fill="Fuchsia"/>
+        <animate attributeName="opacity" dur="1s" values="0;1;0" repeatCount="indefinite" begin="0.1" />
+    </g>
+
+    <text x="150" y="125" font-size="60" text-anchor="middle" fill="cyan" transform="rotate(20)">SVG</text>
+
+</svg>

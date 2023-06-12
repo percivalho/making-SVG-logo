@@ -63,7 +63,18 @@ The application is capable of generating a SVG file for logo design.  It takes u
 there are a number of effects added to the SVG generation including blink, and gradient on the logo shape
 Also, for logo text, the effect are skew and rotate, to make the logo generation more multifaceted.
 
+Examples of logo.svg
+1.  Basic logo.svg
 
+![Basic Logo](examples/Triangle.svg)
+
+2. Blinking logo.svg
+
+![Basic Logo](examples/Blink.svg)
+
+3. Gradient Logo.svg
+
+![Basic Logo](examples/Gradient.svg)
 
 ## Tests
 
