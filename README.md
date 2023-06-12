@@ -1,6 +1,7 @@
 # making-SVG-logo
 
 A Node.js command-line application that takes in user input to generate a logo and save it as an SVG file. The application prompts the user to select a color and shape, provide text for the logo, and save the generated SVG to a .svg file.
+Additionally, there are some effects implemented in the shape and the logo text, to make it more dynamic.
 
 
 ## User Story
@@ -59,6 +60,8 @@ The user should clone the repository and run 'npm i' to install all dependencies
 ## Features
 
 The application is capable of generating a SVG file for logo design.  It takes user input from the command line and dynamically create the logo based on the questions. It supports a number of shapes including rectangle, square, triangle, circle, ellipse, line, star and the color input can be of color words or hex color code.
+there are a number of effects added to the SVG generation including blink, and gradient on the logo shape
+Also, for logo text, the effect are skew and rotate, to make the logo generation more multifaceted.
 
 
 
@@ -82,13 +85,15 @@ Testing done on:
 14. testing on generating Star.
 15. testing on generating Line.
 16. testing on generating Logo matched to questions asked.
+17. testing on text effect like skew or rotate
+18. testing on shape effect like blink or gradient.
 
 
 
 ## Resources
 
 Link to Video Demostration:
-
+https://drive.google.com/file/d/1_IE0Gr7eJAl6V1mMHt60J-HkXIDAe9-y/view?usp=sharing
 
 Link to GitHub repo:
 https://github.com/percivalho/making-SVG-logo.git
@@ -106,6 +111,7 @@ https://github.com/percivalho/making-SVG-logo.git
 http://web.simmons.edu/~grovesd/comm244/notes/week3/css3-color-names - for the list of 140 valid CSS color names
 
 https://www.geeksforgeeks.org/how-to-validate-hexadecimal-color-code-using-regular-expression/ - for the regex validation on valid hex color code
+
 
 ## Credits and Copyright 
 &copy; Copyright 2023 - Present. Percival Ho
