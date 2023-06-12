@@ -1,12 +1,10 @@
 <svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
 
-    <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
-    <stop offset="0%" stop-color="YELLOW" />
-    <stop offset="100%" stop-color="blue" />
-</linearGradient>
-<ellipse cx="150" cy="100" rx="120" ry="80" fill="url(#Gradient2)"/>
+    <g>
+        <rect width="200" height="100" x="50" y="50" fill="yellow"/>
+        <animate attributeName="opacity" dur="1s" values="0;1;0" repeatCount="indefinite" begin="0.1" />
+    </g>
 
-
-    <text x="150" y="125" font-size="60" text-anchor="middle" fill="#12345E" transform="skewX(10) skewY(10)">PHO</text>
+    <text x="150" y="125" font-size="60" text-anchor="middle" fill="cyan" transform="skewX(10) skewY(10)">yet</text>
 
 </svg>
